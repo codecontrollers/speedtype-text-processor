@@ -1,4 +1,7 @@
 # SpeedTypeTP
+
+![rust workflow](https://github.com/codecontrollers/speedtype-text-processor/actions/workflows/ci.yml/badge.svg)
+
 SpeedTypeTP is a high-speed text processor for the SpeedType project written in Rust. 
 
 It extracts words and their frequencies from large quantities of text files while discarding "implausible" words based on a set of rules.
