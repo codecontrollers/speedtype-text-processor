@@ -1,0 +1,18 @@
+[package]
+name = "speedtype-text-processor"
+author = "Jakob Högerl"
+version = "0.1.0"
+edition = "2021"
+description = "A simple program for extracting word frequencies from large quantities of text files. Developed for the SpeedType game project. Supports English only."
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+walkdir = "2.3.2"
+rayon = "1.5.3"
+dashmap = "5.4.0"
+csv = "1.1.6"
+humantime = "2.1.0"
+console = "0.15.1"
+indicatif = "0.17.1"
+clap = {version = "3.2.21", features = ["derive"]}
