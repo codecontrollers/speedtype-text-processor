@@ -1,6 +1,6 @@
 [package]
 name = "speedtype-text-processor"
-author = "Jakob Högerl"
+authors = ["Jakob Högerl"]
 version = "0.1.0"
 edition = "2021"
 description = "A simple program for extracting word frequencies from large quantities of text files. Developed for the SpeedType game project. Supports English only."
